@@ -8,7 +8,7 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
 const Index = () => {
-  const profileImage = "/lovable-uploads/f2a11f14-d856-4d92-b31c-86e024c84e4a.png";
+  const profileImage = "/pic/f2a11f14-d856-4d92-b31c-86e024c84e4a.png";
   
   useEffect(() => {
     document.title = "Kosar Shojaei | Portfolio";
