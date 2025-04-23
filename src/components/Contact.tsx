@@ -18,7 +18,7 @@ const Contact = () => {
           </h2>
           <div className="w-24 h-1 bg-portfolio-blue mx-auto my-4"></div>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Feel free to reach out to me through any of the following channels.
+          You can contact me via any of the methods below. I'm looking forward to hearing from you.
           </p>
         </motion.div>
 
