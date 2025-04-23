@@ -1,27 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>kosar-portfolio-spark</title>
-    <meta name="description" content="A portfolio website" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kosar Shojaei</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+    <header>
+        <nav>
+            <div class="logo">Kosar Shojaei</div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">My Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
 
-    <meta property="og:title" content="kosar-portfolio-spark" />
-    <meta property="og:description" content="A portfolio website" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <section id="home" class="home">
+        <div class="home-content">
+            <div class="home-image">
+                <img src="IMG_20230716_134256_767.jpg">
+            </div>
+            <div class="home-text">
+                <h1>I'm <span class="blue-name">Kosar Shojaei</span></h1>
+                <p>AI Researcher & Python Developer</p>
+                <div class="home-buttons">
+                    <a href="#contact" class="contact-button">Contact Me</a>
+                    <a href="#about" class="about-button">About Me</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down"></div>
+    </section>
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@kosarshojaei" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-    <script type="module" crossorigin src="/assets/index-Cfbk6m2g.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-D_SIF0TV.css">
-  </head>
+    <section id="about" class="about">
+        <div class="about-heading">
+            <h2>About <span class="blue-name">Me</span></h2>
+            <div class="about-heading-line"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Hi, I'm Kosar Shojaei.<br><br> I'm currently pursuing my Master's degree in Artificial Intelligence at Islamic Azad University.<br><br> With a background in Computer Engineering and a strong interest in data-driven solutions, I have experience working on real-world projects involving image processing, optimization algorithms, and full-stack web development using tools like Python, Django, Laravel, and SQL.<br><br> I'm passionate about learning, building, and contributing to innovative technologies that make a real impact.</p>
+            </div>
+            <div class="about-skills">
+                <div class="skill-column">
+                    <div class="skill-container">
+                        <div class="skill">
+                            <span>Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-container">
+                        <div class="skill">
+                            <span>Image Processing</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-column">
+                    <div class="skill-container">
+                        <div class="skill">
+                            <span>Machine Learning</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-container">
+                        <div class="skill">
+                            <span>Web Development</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-column">
+                    <div class="skill-container">
+                        <div class="skill">
+                            <span>Data Analysis</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <body>
-    <div id="root"></div>
-    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
-    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+    <section id="projects" class="projects">
+        <div class="about-heading">
+            <h2>My <span class="blue-name">Projects</span></h2>
+            <div class="about-heading-line"></div>
+            <p>Here are some of my recent projects and research work.</p>
+        </div>
+        <div class="projects-container">
+            <div class="project">
+                <img src="IMG_20230716_767.jpg" alt="Sport Tracker Project">
+                <h3>Sport Tracker </h3>
+                <p>A comprehensive application for tracking sports activities, workouts, and progress. Features include workout planning, progress visualization, and personalized recommendations.</p>
+                <a href="project1.html" class="view-project-button">View Project <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="project">
+                <img src="digit_recognation.png" alt="Handwritten Digit Classification Project">
+                <h3>Handwritten Digit Classification </h3>
+                <p>An AI model that recognizes handwritten digits using convolutional neural networks. Achieved 98.7% accuracy on the MNIST dataset with optimized architecture.</p>
+                <a href="project2.html" class="view-project-button">View Project <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
 
-  </body>
+    <section id="contact" class="contact">
+        <div class="about-heading">
+            <h2>Contact <span class="blue-name">Me</span></h2>
+            <div class="about-heading-line"></div>
+            <p>Feel free to reach out to me through any of the following channels.</p>
+        </div>
+        <div class="contact-links">
+            <a href="https://www.linkedin.com/in/kosar-shojaei/">
+                <img src="linkdin.png" alt="LinkedIn">
+                LinkedIn
+            </a>
+            <a href="https://github.com/kosarshojaei">
+                <img src="github.png" alt="GitHub">
+                GitHub
+            </a>
+            <a href="mailto:kosar@kosar.com">
+                <img src="email.png" alt="Email">
+                Email
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>Kosar Shojaei</p>
+    </footer>
+
+    <script src="script.js"></script>
+    </div>
+</body>
 </html>
