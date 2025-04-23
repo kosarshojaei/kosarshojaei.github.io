@@ -321,7 +321,7 @@ footer {
     }
 
     .menu {
-        display: none;
+        display: flex;
         flex-direction: column;
         position: absolute;
         top: 60px;
@@ -329,6 +329,11 @@ footer {
         width: 100%;
         background-color: #f0f0f0;
         text-align: center;
+        display: none; /* Initially hidden */
+    }
+
+    .menu.active {
+        display: flex; /* Visible when active */
     }
 
     .home-content {
@@ -347,21 +352,37 @@ footer {
     }
 
     .home-text h1 {
-        font-size: 32px;
+        font-size: 20px;
     }
 
     .home-text p {
-        font-size: 18px;
+        font-size: 14px;
+    }
+
+    .home-buttons {
+        display: flex;
+        justify-content: center;
     }
 
     .home-buttons a {
-        width: 120px;
-        padding: 10px 20px;
-        font-size: 16px;
+        width: 80px;
+        padding: 6px 12px;
+        font-size: 12px;
     }
 
-    .about-content {
+    .home-content {
         flex-direction: column;
+        margin-bottom: 16px;
+    }
+
+    .home-image img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .project {
+        width: 100%;
+        height: auto; /* Adjust height automatically */
     }
 
     .about-text {
@@ -433,7 +454,6 @@ footer {
     .about-skills {
         width: 100%;
     }
-}
 
 .view-project-button {
     display: inline-block;
