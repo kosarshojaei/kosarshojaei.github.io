@@ -98,4 +98,39 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  /* Custom Styles for Portfolio */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .glass-effect {
+    @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-sm;
+  }
+
+  .section-heading::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #cce7ff;
+    margin: 1rem auto 0;
+  }
+
+  /* Custom animations */
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+
+  .float-animation {
+    animation: float 3s ease-in-out infinite;
+  }
 }

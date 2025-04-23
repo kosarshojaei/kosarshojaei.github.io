@@ -19,6 +19,11 @@ export default {
 		},
 		extend: {
 			colors: {
+				'portfolio': {
+					'blue': '#cce7ff',
+					'light': '#ffffff',
+				},
+			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
